@@ -215,7 +215,7 @@
 }
 
 .recycled .recycled_img {
-  background-image: url(/images/calc_recycled.png);
+  background-image: url(../images/calc_recycled.png);
   width: 76px;
   height: 88px;
 }
