@@ -1,0 +1,13 @@
+.final_door {
+  height: 400px;
+  background-color: $base_color_door;
+  border: 1px solid black;
+  .main_door {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border: 8px solid $border_color_door;
+    position: relative;
+    padding: 0;
+  }
+}

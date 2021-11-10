@@ -1,0 +1,22 @@
+@import "variables";
+@import "header_control_panel";
+@import "final_door";
+@import "carousel_material_selection";
+@import "container_drop";
+@import "info_door";
+@import "container";
+@import "recycled";
+@import "right_container";
+
+ul {
+  list-style: none;
+}
+
+@media (max-width: 960px) {
+  .container_new {
+    width: 960px !important;
+  }
+  body {
+    width: 960px !important;
+  }
+}

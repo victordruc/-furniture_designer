@@ -1,0 +1,21 @@
+.carousel_material_selection {
+  .intern_block_carousel {
+    overflow: hidden;
+    background-color: $base_color_door;
+    width: 100%;
+    position: relative;
+  }
+  ul {
+    position: absolute;
+    .select {
+      background-color: green;
+    }
+    li {
+      padding: 7px 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.container_drop {
+  width: 100%;
+  max-height: 130px;
+  #horDrop {
+    padding: 20px 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $base_color_door;
+    img {
+      height: 20px;
+      width: 60px;
+    }
+  }
+
+  #vertDrop {
+    display: flex;
+    background-color: $base_color_door;
+    padding: 20px 30px;
+    border: 1px solid black;
+    img {
+      height: 60px;
+      width: 20px;
+    }
+  }
+}

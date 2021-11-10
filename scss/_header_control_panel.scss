@@ -1,0 +1,35 @@
+.header_control_panel {
+  text-align: center;
+
+  input {
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  select {
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+  }
+  .col-3 {
+    border-left: 1px solid darken($main_color, 50%);
+  }
+  .selection_col {
+    display: grid;
+    justify-content: space-evenly;
+    tbody {
+      display: grid;
+      grid-gap: 10px;
+    }
+  }
+
+  #parametersDoor {
+    display: flex;
+    justify-content: center;
+    td {
+      padding: 6px;
+      border: 1px solid lighten($main_color, 10%);
+    }
+  }
+}
